@@ -24,7 +24,7 @@ export const Countdown = () => {
 
   return (
     <div className="countdown">
-      <h1>Count down</h1>
+      <h1>Countdown</h1>
       <div className="countdown__wrapper">
         <div className="countdown__wrapper__days">
           <div className="timer">
