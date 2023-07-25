@@ -4,10 +4,14 @@ body{
   color: #fff;
   background-color: #011926;
 }
+.app{
+  display: flex;
+  flex-direction: column;
+}
 .main{
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   align-items: center;
   padding-bottom: 1rem;
 }
@@ -24,7 +28,7 @@ body{
   border-top: 1px solid #fff;
 
   @media (max-width: 716px) {
-    height: 100vh;
+    height: 100%;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -58,9 +62,10 @@ body{
   }
 }
 .copyright{
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 1rem;
     flex-direction: column;
+    bottom: 0;
 }

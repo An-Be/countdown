@@ -2,15 +2,14 @@ import { Countdown } from "./components/Countdown";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <div className="main">
         <Countdown />
       </div>{" "}
-      <hr />
-      <div className="copyright">
+      <footer className="copyright">
       <span >&copy; Andrea Berrocal</span>
-      </div>
-    </>
+      </footer>
+    </div>
   );
 }
 
